@@ -1,0 +1,759 @@
+[debug] [2023-10-08T11:55:15.473Z] ----------------------------------------------------------------------
+[debug] [2023-10-08T11:55:15.475Z] Command:       /Users/imac22/.nvm/versions/node/v18.17.1/bin/node /Users/imac22/.nvm/versions/node/v18.17.1/bin/firebase emulators:start
+[debug] [2023-10-08T11:55:15.475Z] CLI Version:   12.6.2
+[debug] [2023-10-08T11:55:15.475Z] Platform:      darwin
+[debug] [2023-10-08T11:55:15.476Z] Node Version:  v18.17.1
+[debug] [2023-10-08T11:55:15.477Z] Time:          Sun Oct 08 2023 17:25:15 GMT+0530 (India Standard Time)
+[debug] [2023-10-08T11:55:15.477Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-08T11:55:15.544Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-08T11:55:15.545Z] > authorizing via signed-in user (shubhankar1solanki@gmail.com)
+[debug] [2023-10-08T11:55:15.661Z] openjdk version "11.0.17" 2022-10-18
+[debug] [2023-10-08T11:55:15.661Z] 
+OpenJDK Runtime Environment Temurin-11.0.17+8 (build 11.0.17+8)
+OpenJDK 64-Bit Server VM Temurin-11.0.17+8 (build 11.0.17+8, mixed mode)
+
+[debug] [2023-10-08T11:55:15.665Z] Parsed Java major version: 11
+[info] i  emulators: Starting emulators: functions, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, storage"}}
+[debug] [2023-10-08T11:55:16.169Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-08T11:55:16.169Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-08T11:55:16.169Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-10-08T11:55:16.176Z] [hub] writing locator at /var/folders/73/6j42rxdx1ml4yp8s3j_3l_r80000gn/T/hub-image-pdf-1e2e8.json
+[debug] [2023-10-08T11:55:16.425Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-08T11:55:16.425Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-10-08T11:55:16.425Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub\u001b[22m"}}
+[debug] [2023-10-08T11:55:16.427Z] defaultcredentials: writing to file /Users/imac22/.config/firebase/shubhankar1solanki_gmail_com_application_default_credentials.json
+[debug] [2023-10-08T11:55:16.429Z] Setting GAC to /Users/imac22/.config/firebase/shubhankar1solanki_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/imac22/.config/firebase/shubhankar1solanki_gmail_com_application_default_credentials.json"}}
+[debug] [2023-10-08T11:55:16.431Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/image-pdf-1e2e8/adminSdkConfig [none]
+[debug] [2023-10-08T11:55:16.997Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/image-pdf-1e2e8/adminSdkConfig 200
+[debug] [2023-10-08T11:55:16.997Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/image-pdf-1e2e8/adminSdkConfig {"projectId":"image-pdf-1e2e8","storageBucket":"image-pdf-1e2e8.appspot.com","locationId":"us-central"}
+[debug] [2023-10-08T11:55:17.022Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-10-08T11:55:17.849Z] Temp file directory for storage emulator: /var/folders/73/6j42rxdx1ml4yp8s3j_3l_r80000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/73/6j42rxdx1ml4yp8s3j_3l_r80000gn/T/firebase/storage/blobs"}}
+[debug] [2023-10-08T11:55:17.856Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-10-08T11:55:17.856Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-10-08T11:55:17.856Z] Starting Emulator UI with command {"binary":"node","args":["/Users/imac22/.cache/firebase/emulators/ui-v1.11.7/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/imac22/.cache/firebase/emulators/ui-v1.11.7/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-10-08T11:55:17.971Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-10-08T11:55:17.971Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "/Users/imac22/Desktop/image-to-pdf/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/imac22/Desktop/image-to-pdf/functions\" for Cloud Functions..."}}
+[debug] [2023-10-08T11:55:18.116Z] Validating nodejs source
+[debug] [2023-10-08T11:55:18.917Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:55:18.917Z] Building nodejs source
+[debug] [2023-10-08T11:55:18.918Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:55:18.920Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:55:18.924Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-10-08T11:55:18.967Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/image-pdf-1e2e8/adminSdkConfig [none]
+[info] Serving at port 8260
+
+[debug] [2023-10-08T11:55:19.474Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[info] ✔  functions[us-central1-imageToPdf]: http function initialized (http://127.0.0.1:5001/image-pdf-1e2e8/us-central1/imageToPdf). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/image-pdf-1e2e8/us-central1/imageToPdf)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Storage   │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage   │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-10-08T11:55:19.500Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/image-pdf-1e2e8/adminSdkConfig 200
+[debug] [2023-10-08T11:55:19.500Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/image-pdf-1e2e8/adminSdkConfig {"projectId":"image-pdf-1e2e8","storageBucket":"image-pdf-1e2e8.appspot.com","locationId":"us-central"}
+[debug] [2023-10-08T11:55:23.640Z] [work-queue] {"queuedWork":["/image-pdf-1e2e8/us-central1/imageToPdf-2023-10-08T11:55:23.640Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-08T11:55:23.640Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/image-pdf-1e2e8/us-central1/imageToPdf-2023-10-08T11:55:23.640Z"],"workRunningCount":1}
+[debug] [2023-10-08T11:55:23.641Z] Accepted request GET /image-pdf-1e2e8/us-central1/imageToPdf --> us-central1-imageToPdf
+[debug] [2023-10-08T11:55:23.642Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-08T11:55:23.642Z] [functions] Got req.url=/image-pdf-1e2e8/us-central1/imageToPdf, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/image-pdf-1e2e8/us-central1/imageToPdf, mapping to path=/"}}
+[debug] [2023-10-08T11:55:23.645Z] [worker-pool] addWorker(us-central1-imageToPdf) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-imageToPdf)"}}
+[debug] [2023-10-08T11:55:23.646Z] [worker-pool] Adding worker with key us-central1-imageToPdf, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-imageToPdf, total=1"}}
+[debug] [2023-10-08T11:55:24.710Z] [runtime-status] [3522] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-08T11:55:24.710Z] [runtime-status] [3522] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:55:24.711Z] [runtime-status] [3522] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-10-08T11:55:24.712Z] [runtime-status] [3522] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:55:24.914Z] [runtime-status] [3522] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-10-08T11:55:24.914Z] [runtime-status] [3522] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-10-08T11:55:24.915Z] [runtime-status] [3522] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:55:24.916Z] [runtime-status] [3522] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-08T11:55:24.917Z] [runtime-status] [3522] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:55:24.918Z] [runtime-status] [3522] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-10-08T11:55:25.077Z] [runtime-status] [3522] initializeApp(DEFAULT) {"projectId":"image-pdf-1e2e8","storageBucket":"gs://image-pdf-1e2e8.appspot.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] initializeApp(DEFAULT) {\"projectId\":\"image-pdf-1e2e8\",\"storageBucket\":\"gs://image-pdf-1e2e8.appspot.com\"}"}}
+[debug] [2023-10-08T11:55:25.089Z] [runtime-status] [3522] Functions runtime initialized. {"cwd":"/Users/imac22/Desktop/image-to-pdf/functions","node_version":"18.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Functions runtime initialized. {\"cwd\":\"/Users/imac22/Desktop/image-to-pdf/functions\",\"node_version\":\"18.17.1\"}"}}
+[debug] [2023-10-08T11:55:25.089Z] [runtime-status] [3522] Listening to port: /var/folders/73/6j42rxdx1ml4yp8s3j_3l_r80000gn/T/fire_emu_479f064e4d14cc71.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3522] Listening to port: /var/folders/73/6j42rxdx1ml4yp8s3j_3l_r80000gn/T/fire_emu_479f064e4d14cc71.sock"}}
+[debug] [2023-10-08T11:55:25.166Z] [worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: IDLE"}}
+[debug] [2023-10-08T11:55:25.166Z] [worker-pool] submitRequest(triggerId=us-central1-imageToPdf) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-imageToPdf)"}}
+[info] i  functions: Beginning execution of "us-central1-imageToPdf" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Beginning execution of \"us-central1-imageToPdf\""}}
+[debug] [2023-10-08T11:55:25.167Z] [worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: BUSY"}}
+[info] >  {"severity":"INFO","message":"Image to pdf function call initiated!!"} {"user":{"severity":"INFO","message":"Image to pdf function call initiated!!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"Image to pdf function call initiated!!\"}"}}
+[info] >  {"severity":"INFO","message":"image loaded 1280"} {"user":{"severity":"INFO","message":"image loaded 1280"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"image loaded 1280\"}"}}
+[debug] [2023-10-08T11:55:25.452Z] File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers"}}
+[info] >  {"severity":"INFO","message":"png file created with hello world!"} {"user":{"severity":"INFO","message":"png file created with hello world!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"png file created with hello world!\"}"}}
+[debug] [2023-10-08T11:55:26.408Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-imageToPdf" in 1241.173582ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finished \"us-central1-imageToPdf\" in 1241.173582ms"}}
+[debug] [2023-10-08T11:55:26.409Z] [worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: IDLE"}}
+[debug] [2023-10-08T11:55:26.409Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-08T11:55:26.409Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-08T11:55:26.409Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-08T11:55:26.445Z] File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers"}}
+[debug] [2023-10-08T11:55:26.500Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:55:26.500Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"eventId":"1696766126500","timestamp":"2023-10-08T11:55:26.500Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/image-file-upload-demo/objects/my-pdf","type":"storage#object"},"data":{"kind":"storage#object","name":"my-pdf","bucket":"image-file-upload-demo","generation":"1696766126494","metageneration":"1","contentType":"application/pdf","timeCreated":"2023-10-08T11:55:26.494Z","updated":"2023-10-08T11:55:26.494Z","storageClass":"STANDARD","size":"1005109","md5Hash":"mmldXR1uW5rqkRSGFG2JkA==","etag":"b7qqERqVCw1TvBGgy+SV0dVoa+o","crc32c":"OCLSTg==","timeStorageClassUpdated":"2023-10-08T11:55:26.494Z","id":"image-file-upload-demo/my-pdf/1696766126494","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf?generation=1696766126494&alt=media"}}
+[debug] [2023-10-08T11:55:26.504Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:55:26.504Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2023-10-08T11:55:26.505Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:55:26.505Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"specversion":"1.0","id":"f646babe-bbca-4c22-bea8-bdc571c50ab2","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/image-file-upload-demo/objects/my-pdf","time":"2023-10-08T11:55:26.494Z","data":{"kind":"storage#object","name":"my-pdf","bucket":"image-file-upload-demo","generation":"1696766126494","metageneration":"1","contentType":"application/pdf","timeCreated":"2023-10-08T11:55:26.494Z","updated":"2023-10-08T11:55:26.494Z","storageClass":"STANDARD","size":"1005109","md5Hash":"mmldXR1uW5rqkRSGFG2JkA==","etag":"b7qqERqVCw1TvBGgy+SV0dVoa+o","crc32c":"OCLSTg==","timeStorageClassUpdated":"2023-10-08T11:55:26.494Z","id":"image-file-upload-demo/my-pdf/1696766126494","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf?generation=1696766126494&alt=media"}}
+[info] >  {"severity":"INFO","message":"File buffer uploaded successfully."} {"user":{"severity":"INFO","message":"File buffer uploaded successfully."},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"File buffer uploaded successfully.\"}"}}
+[debug] [2023-10-08T11:55:26.508Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:55:26.509Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2023-10-08T11:55:27.446Z] Validating nodejs source
+[debug] [2023-10-08T11:55:28.199Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:55:28.199Z] Building nodejs source
+[debug] [2023-10-08T11:55:28.199Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:55:28.200Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:55:28.201Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8259
+
+[debug] [2023-10-08T11:55:28.787Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T11:55:28.799Z] [worker-pool] Shutting down IDLE worker (us-central1-imageToPdf) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-imageToPdf)"}}
+[debug] [2023-10-08T11:55:28.799Z] [worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: FINISHING"}}
+[debug] [2023-10-08T11:55:28.810Z] [worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: exited"}}
+[debug] [2023-10-08T11:55:28.810Z] [worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-33ec3216-ed1d-452a-ac7d-a87e9e9ac6e9]: FINISHED"}}
+[debug] [2023-10-08T11:56:07.056Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:56:07.056Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"eventId":"1696766167056","timestamp":"2023-10-08T11:56:07.056Z","eventType":"google.storage.object.metadataUpdate","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/image-file-upload-demo/objects/my-pdf","type":"storage#object"},"data":{"kind":"storage#object","name":"my-pdf","bucket":"image-file-upload-demo","generation":"1696766126494","metageneration":"2","contentType":"application/pdf","timeCreated":"2023-10-08T11:55:26.494Z","updated":"2023-10-08T11:56:07.056Z","storageClass":"STANDARD","size":"1005109","md5Hash":"mmldXR1uW5rqkRSGFG2JkA==","etag":"b7qqERqVCw1TvBGgy+SV0dVoa+o","metadata":{"firebaseStorageDownloadTokens":"c257e493-d486-4287-a882-3e43bf498856"},"crc32c":"OCLSTg==","timeStorageClassUpdated":"2023-10-08T11:55:26.494Z","id":"image-file-upload-demo/my-pdf/1696766126494","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf?generation=1696766126494&alt=media"}}
+[debug] [2023-10-08T11:56:07.059Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:56:07.059Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2023-10-08T11:56:07.059Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:56:07.059Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"specversion":"1.0","id":"5cb8ccea-cbe4-480e-b8cb-7502545c9cdf","type":"google.cloud.storage.object.v1.metadataUpdated","source":"//storage.googleapis.com/projects/_/buckets/image-file-upload-demo/objects/my-pdf","time":"2023-10-08T11:56:07.056Z","data":{"kind":"storage#object","name":"my-pdf","bucket":"image-file-upload-demo","generation":"1696766126494","metageneration":"2","contentType":"application/pdf","timeCreated":"2023-10-08T11:55:26.494Z","updated":"2023-10-08T11:56:07.056Z","storageClass":"STANDARD","size":"1005109","md5Hash":"mmldXR1uW5rqkRSGFG2JkA==","etag":"b7qqERqVCw1TvBGgy+SV0dVoa+o","metadata":{"firebaseStorageDownloadTokens":"c257e493-d486-4287-a882-3e43bf498856"},"crc32c":"OCLSTg==","timeStorageClassUpdated":"2023-10-08T11:55:26.494Z","id":"image-file-upload-demo/my-pdf/1696766126494","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf?generation=1696766126494&alt=media"}}
+[debug] [2023-10-08T11:56:07.061Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:56:07.061Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2023-10-08T11:56:38.304Z] File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-08T11:56:39.305Z] Validating nodejs source
+[debug] [2023-10-08T11:56:43.645Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:56:43.645Z] Building nodejs source
+[debug] [2023-10-08T11:56:43.645Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:56:43.646Z] File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-08T11:56:43.646Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:56:43.647Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8376
+
+[debug] [2023-10-08T11:56:44.148Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T11:56:44.646Z] Validating nodejs source
+[debug] [2023-10-08T11:56:45.391Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:56:45.391Z] Building nodejs source
+[debug] [2023-10-08T11:56:45.391Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:56:45.392Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:56:45.393Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8653
+
+[debug] [2023-10-08T11:56:45.867Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T11:56:48.389Z] [work-queue] {"queuedWork":["/image-pdf-1e2e8/us-central1/imageToPdf-2023-10-08T11:56:48.389Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-08T11:56:48.389Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/image-pdf-1e2e8/us-central1/imageToPdf-2023-10-08T11:56:48.389Z"],"workRunningCount":1}
+[debug] [2023-10-08T11:56:48.389Z] Accepted request GET /image-pdf-1e2e8/us-central1/imageToPdf --> us-central1-imageToPdf
+[debug] [2023-10-08T11:56:48.390Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-10-08T11:56:48.390Z] [functions] Got req.url=/image-pdf-1e2e8/us-central1/imageToPdf, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/image-pdf-1e2e8/us-central1/imageToPdf, mapping to path=/"}}
+[debug] [2023-10-08T11:56:48.390Z] [worker-pool] Cleaned up workers for us-central1-imageToPdf: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-imageToPdf: 1 --> 0"}}
+[debug] [2023-10-08T11:56:48.391Z] [worker-pool] addWorker(us-central1-imageToPdf) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-imageToPdf)"}}
+[debug] [2023-10-08T11:56:48.392Z] [worker-pool] Adding worker with key us-central1-imageToPdf, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-imageToPdf, total=1"}}
+[debug] [2023-10-08T11:56:49.403Z] [runtime-status] [3560] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-08T11:56:49.404Z] [runtime-status] [3560] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:56:49.404Z] [runtime-status] [3560] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-10-08T11:56:49.405Z] [runtime-status] [3560] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:56:49.620Z] [runtime-status] [3560] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-10-08T11:56:49.620Z] [runtime-status] [3560] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2023-10-08T11:56:49.621Z] [runtime-status] [3560] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:56:49.622Z] [runtime-status] [3560] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.0","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2023-10-08T11:56:49.624Z] [runtime-status] [3560] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.4.1","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.4.1\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2023-10-08T11:56:49.625Z] [runtime-status] [3560] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.0","resolution":"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.0\",\"resolution\":\"/Users/imac22/Desktop/image-to-pdf/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2023-10-08T11:56:49.791Z] [runtime-status] [3560] initializeApp(DEFAULT) {"projectId":"image-pdf-1e2e8","storageBucket":"gs://image-pdf-1e2e8.appspot.com"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] initializeApp(DEFAULT) {\"projectId\":\"image-pdf-1e2e8\",\"storageBucket\":\"gs://image-pdf-1e2e8.appspot.com\"}"}}
+[debug] [2023-10-08T11:56:49.802Z] [runtime-status] [3560] Functions runtime initialized. {"cwd":"/Users/imac22/Desktop/image-to-pdf/functions","node_version":"18.17.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Functions runtime initialized. {\"cwd\":\"/Users/imac22/Desktop/image-to-pdf/functions\",\"node_version\":\"18.17.1\"}"}}
+[debug] [2023-10-08T11:56:49.803Z] [runtime-status] [3560] Listening to port: /var/folders/73/6j42rxdx1ml4yp8s3j_3l_r80000gn/T/fire_emu_a22df128ba83e543.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[runtime-status] [3560] Listening to port: /var/folders/73/6j42rxdx1ml4yp8s3j_3l_r80000gn/T/fire_emu_a22df128ba83e543.sock"}}
+[debug] [2023-10-08T11:56:49.809Z] [worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: IDLE"}}
+[debug] [2023-10-08T11:56:49.810Z] [worker-pool] submitRequest(triggerId=us-central1-imageToPdf) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-imageToPdf)"}}
+[info] i  functions: Beginning execution of "us-central1-imageToPdf" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Beginning execution of \"us-central1-imageToPdf\""}}
+[debug] [2023-10-08T11:56:49.810Z] [worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: BUSY"}}
+[info] >  {"severity":"INFO","message":"Image to pdf function call initiated!!"} {"user":{"severity":"INFO","message":"Image to pdf function call initiated!!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"Image to pdf function call initiated!!\"}"}}
+[info] >  {"severity":"INFO","message":"image loaded 1280"} {"user":{"severity":"INFO","message":"image loaded 1280"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"image loaded 1280\"}"}}
+[debug] [2023-10-08T11:56:50.049Z] File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers"}}
+[info] >  {"severity":"INFO","message":"png file created with hello world!"} {"user":{"severity":"INFO","message":"png file created with hello world!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"png file created with hello world!\"}"}}
+[debug] [2023-10-08T11:56:51.035Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-imageToPdf" in 1225.415217ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finished \"us-central1-imageToPdf\" in 1225.415217ms"}}
+[debug] [2023-10-08T11:56:51.036Z] [worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: IDLE"}}
+[debug] [2023-10-08T11:56:51.036Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-10-08T11:56:51.036Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-10-08T11:56:51.036Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-10-08T11:56:51.050Z] Validating nodejs source
+[debug] [2023-10-08T11:56:51.791Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:56:51.791Z] Building nodejs source
+[debug] [2023-10-08T11:56:51.791Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:56:51.791Z] File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/resources/images/pdf.png changed, reloading triggers"}}
+[debug] [2023-10-08T11:56:51.792Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:56:51.793Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[debug] [2023-10-08T11:56:51.834Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:56:51.835Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"eventId":"1696766211834","timestamp":"2023-10-08T11:56:51.834Z","eventType":"google.storage.object.finalize","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/image-file-upload-demo/objects/my-pdf.pdf","type":"storage#object"},"data":{"kind":"storage#object","name":"my-pdf.pdf","bucket":"image-file-upload-demo","generation":"1696766211829","metageneration":"1","contentType":"application/pdf","timeCreated":"2023-10-08T11:56:51.829Z","updated":"2023-10-08T11:56:51.829Z","storageClass":"STANDARD","size":"1005109","md5Hash":"xXE/B0A1bJ1wU4tVbKD1Xg==","etag":"7KMpQ9syAUoV4p6vzgJZo3QT504","crc32c":"vDt0OQ==","timeStorageClassUpdated":"2023-10-08T11:56:51.829Z","id":"image-file-upload-demo/my-pdf.pdf/1696766211829","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf?generation=1696766211829&alt=media"}}
+[info] >  {"severity":"INFO","message":"File buffer uploaded successfully."} {"user":{"severity":"INFO","message":"File buffer uploaded successfully."},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"severity\":\"INFO\",\"message\":\"File buffer uploaded successfully.\"}"}}
+[debug] [2023-10-08T11:56:51.840Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:56:51.840Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2023-10-08T11:56:51.841Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:56:51.841Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"specversion":"1.0","id":"fad9a6d9-550b-4c28-b428-0c2ba490d648","type":"google.cloud.storage.object.v1.finalized","source":"//storage.googleapis.com/projects/_/buckets/image-file-upload-demo/objects/my-pdf.pdf","time":"2023-10-08T11:56:51.829Z","data":{"kind":"storage#object","name":"my-pdf.pdf","bucket":"image-file-upload-demo","generation":"1696766211829","metageneration":"1","contentType":"application/pdf","timeCreated":"2023-10-08T11:56:51.829Z","updated":"2023-10-08T11:56:51.829Z","storageClass":"STANDARD","size":"1005109","md5Hash":"xXE/B0A1bJ1wU4tVbKD1Xg==","etag":"7KMpQ9syAUoV4p6vzgJZo3QT504","crc32c":"vDt0OQ==","timeStorageClassUpdated":"2023-10-08T11:56:51.829Z","id":"image-file-upload-demo/my-pdf.pdf/1696766211829","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf?generation=1696766211829&alt=media"}}
+[debug] [2023-10-08T11:56:51.844Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:56:51.844Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2023-10-08T11:56:51.858Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:56:51.858Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"eventId":"1696766211858","timestamp":"2023-10-08T11:56:51.858Z","eventType":"google.storage.object.metadataUpdate","resource":{"service":"storage.googleapis.com","name":"projects/_/buckets/image-file-upload-demo/objects/my-pdf.pdf","type":"storage#object"},"data":{"kind":"storage#object","name":"my-pdf.pdf","bucket":"image-file-upload-demo","generation":"1696766211829","metageneration":"2","contentType":"application/pdf","timeCreated":"2023-10-08T11:56:51.829Z","updated":"2023-10-08T11:56:51.858Z","storageClass":"STANDARD","size":"1005109","md5Hash":"xXE/B0A1bJ1wU4tVbKD1Xg==","etag":"7KMpQ9syAUoV4p6vzgJZo3QT504","metadata":{"firebaseStorageDownloadTokens":"d49f2fe6-6f0f-40e3-9635-922c8bc1d4e4"},"crc32c":"vDt0OQ==","timeStorageClassUpdated":"2023-10-08T11:56:51.829Z","id":"image-file-upload-demo/my-pdf.pdf/1696766211829","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf?generation=1696766211829&alt=media"}}
+[debug] [2023-10-08T11:56:51.868Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:56:51.868Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2023-10-08T11:56:51.868Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast [none]
+[debug] [2023-10-08T11:56:51.868Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"specversion":"1.0","id":"12e86019-fb5e-42b6-803f-b6cd7bfc02a3","type":"google.cloud.storage.object.v1.metadataUpdated","source":"//storage.googleapis.com/projects/_/buckets/image-file-upload-demo/objects/my-pdf.pdf","time":"2023-10-08T11:56:51.858Z","data":{"kind":"storage#object","name":"my-pdf.pdf","bucket":"image-file-upload-demo","generation":"1696766211829","metageneration":"2","contentType":"application/pdf","timeCreated":"2023-10-08T11:56:51.829Z","updated":"2023-10-08T11:56:51.858Z","storageClass":"STANDARD","size":"1005109","md5Hash":"xXE/B0A1bJ1wU4tVbKD1Xg==","etag":"7KMpQ9syAUoV4p6vzgJZo3QT504","metadata":{"firebaseStorageDownloadTokens":"d49f2fe6-6f0f-40e3-9635-922c8bc1d4e4"},"crc32c":"vDt0OQ==","timeStorageClassUpdated":"2023-10-08T11:56:51.829Z","id":"image-file-upload-demo/my-pdf.pdf/1696766211829","selfLink":"http://127.0.0.1:9199/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf","mediaLink":"http://127.0.0.1:9199/download/storage/v1/b/image-file-upload-demo/o/my-pdf.pdf?generation=1696766211829&alt=media"}}
+[debug] [2023-10-08T11:56:51.871Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast 200
+[debug] [2023-10-08T11:56:51.872Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/image-pdf-1e2e8/trigger_multicast {"status":"multicast_acknowledged"}
+[info] Serving at port 8584
+
+[debug] [2023-10-08T11:56:52.310Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T11:56:52.323Z] [worker-pool] Shutting down IDLE worker (us-central1-imageToPdf) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-imageToPdf)"}}
+[debug] [2023-10-08T11:56:52.323Z] [worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: FINISHING"}}
+[debug] [2023-10-08T11:56:52.336Z] [worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: exited"}}
+[debug] [2023-10-08T11:56:52.337Z] [worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-imageToPdf"},"extension":{},"message":"[worker-us-central1-imageToPdf-e551e159-b050-4b09-a17a-f162c8c9d972]: FINISHED"}}
+[debug] [2023-10-08T11:56:52.792Z] Validating nodejs source
+[debug] [2023-10-08T11:56:53.513Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:56:53.513Z] Building nodejs source
+[debug] [2023-10-08T11:56:53.513Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:56:53.514Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:56:53.515Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8086
+
+[debug] [2023-10-08T11:56:54.035Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T11:57:39.927Z] File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-08T11:57:40.928Z] Validating nodejs source
+[debug] [2023-10-08T11:57:41.637Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:57:41.638Z] Building nodejs source
+[debug] [2023-10-08T11:57:41.638Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:57:41.638Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:57:41.639Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8578
+
+[debug] [2023-10-08T11:57:42.119Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T11:57:43.002Z] File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-08T11:57:44.003Z] Validating nodejs source
+[debug] [2023-10-08T11:57:44.831Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:57:44.831Z] Building nodejs source
+[debug] [2023-10-08T11:57:44.831Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:57:44.832Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:57:44.833Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8551
+
+[debug] [2023-10-08T11:57:45.342Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T11:58:06.935Z] File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/imac22/Desktop/image-to-pdf/functions/index.js changed, reloading triggers"}}
+[debug] [2023-10-08T11:58:07.936Z] Validating nodejs source
+[debug] [2023-10-08T11:58:08.678Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^7.2.0",
+    "canvas": "^2.11.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-10-08T11:58:08.678Z] Building nodejs source
+[debug] [2023-10-08T11:58:08.678Z] Failed to find version of module node: reached end of search path /Users/imac22/Desktop/image-to-pdf/functions/node_modules
+[info] ✔  functions: Using node@18 from host. 
+[debug] [2023-10-08T11:58:08.679Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-10-08T11:58:08.680Z] Found firebase-functions binary at '/Users/imac22/Desktop/image-to-pdf/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8785
+
+[debug] [2023-10-08T11:58:09.201Z] Got response from /__/functions.yaml {"endpoints":{"imageToPdf":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"imageToPdf"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] shutdown requested via /__/quitquitquit
+
+[info] ✔  functions: Loaded functions definitions from source: imageToPdf. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: imageToPdf."}}
+[debug] [2023-10-08T12:26:25.837Z] Received signal SIGHUP 1
+[info]  
+[info] i  emulators: Received SIGHUP for the first time. Starting a clean shutdown. 
+[info] i  emulators: Please wait for a clean shutdown or send the SIGHUP signal again to stop right now. 
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  ui: Stopping Emulator UI {"metadata":{"emulator":{"name":"ui"},"message":"Stopping Emulator UI"}}
+[debug] [2023-10-08T12:26:25.840Z] Ignoring signal SIGHUP due to short delay of 3ms
+[warn] ⚠  Emulator UI has exited upon receiving signal: SIGINT 
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  storage: Stopping Storage Emulator {"metadata":{"emulator":{"name":"storage"},"message":"Stopping Storage Emulator"}}
+[debug] [2023-10-08T12:26:25.851Z] Stopping rules runtime. {"metadata":{"emulator":{"name":"storage"},"message":"Stopping rules runtime."}}
+[info] i  eventarc: Stopping Eventarc Emulator {"metadata":{"emulator":{"name":"eventarc"},"message":"Stopping Eventarc Emulator"}}
+[debug] [2023-10-08T12:26:26.219Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.220Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.220Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.220Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.221Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.221Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.222Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.222Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.222Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.223Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.223Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.224Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.224Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.224Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.225Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.226Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.226Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-10-08T12:26:26.226Z] Error: write EIO
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:931:11)
+    at Socket._write (node:net:943:8)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Console.log (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston/lib/winston/transports/console.js:79:23)
+    at Console._write (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/winston-transport/index.js:103:17)
+    at doWrite (/Users/imac22/.nvm/versions/node/v18.17.1/lib/node_modules/firebase-tools/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+[error] 
